@@ -1,0 +1,26 @@
+{
+  "name": "javascript-small-projects",
+  "version": "1.0.0",
+  "description": "This repository contains my collection of small JavaScript practice projects. Each project is designed to improve my understanding of JavaScript concepts through hands-on practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drumil1530/javascript-small-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/drumil1530/javascript-small-projects/issues"
+  },
+  "homepage": "https://github.com/drumil1530/javascript-small-projects#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0"
+  }
+}
