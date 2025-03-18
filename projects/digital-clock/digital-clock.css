@@ -132,8 +132,8 @@ body {
 .clock-minute,
 .clock-seconds {
   height: calc(75% - 0.5rem);
-  font-size: 10rem;
   padding: 1rem;
+  font-size: 10rem;
 }
 
 .hour-text,
@@ -150,6 +150,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   width: 52rem;
 }
 
@@ -178,4 +179,39 @@ body {
   right: 0;
   margin: 2rem;
   font-size: 1.6rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 560px) {
+  .clock-container {
+      max-width: 90vw;
+      height: 38vh;
+  }
+
+  .clock-flex {
+    flex-direction: column;
+  }
+
+  .clock-hour,
+  .clock-minute,
+  .clock-seconds {
+      font-size: 6rem;
+      width: calc(50% - 0.5rem);
+      height: calc(33.33% - 1rem);
+  }
+
+  .hour-text,
+  .minute-text,
+  .seconds-text {
+      width: calc(50% - 0.5rem);
+      height: calc(33.33% - 1rem);
+  }
+
+  .button-indicator {
+      max-width: 90vw;
+  }
+
+  .ampm-indicator {
+    font-size: 2rem;
+  }
 }
